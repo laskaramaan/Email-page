@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Eventually - Stunning HTML5 Landing Page</title>
+</head>
+<body>
+    <!-- MAIN -->
+    
+    <div class="container">
+        <div class="box">
+        <h1>wolaa!!</h1>
+        <p>A simple template for telling the world when you'll launch <br> your big thing. Designed and builed by <span>@AmaanLaskar</span></p>
+        <div class="action">
+        <input type="email" name="email" id="" placeholder="Email Address">
+        <button class="btn">Sign Up</button>
+        <p id="overlay">Thank You!</p>
+    </div>
+    </div>
+        <div class="footer">
+            <ul>
+                <li class="list"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="list"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li class="list"><a href="#"><i class="fa fa-github"></i></a></li>
+                <li class="list"><a href="#"><i class="fa fa-envelope-o"></i>
+            </a></li>
+            </ul>
+        </div>
+    </div>
+<!-- JAVASCRIPT FOR THE BUTTON TO SHOW THANKS YOU MESSAGE -->
+<script>
+    var button = document.querySelector('.btn').addEventListener("click", () => {
+       document.querySelector('#overlay').style.display = "block";
+    })
+</script>
+</body>
+</html>
